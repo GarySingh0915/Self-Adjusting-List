@@ -7,8 +7,11 @@ For this assignment, we will build a self-adjusting list.  A self-adjusting list
 2.Start with the code we have written in class. 
 
 3.Self-adjusting list operations:
+  
   a.In a self-adjusting list, all insertions are performed at the front. 
+  
   b.A self-adjusting list has a find operation, and when an element is accessed by a find, it is moved to the front of the list without changing the relative order of the other items. 
+  
   c.NOTE: You will need extensive testcases to show these operations work as expected. Because theitemsare not sortedyou will have to use a basic linear searchto find the item. DO NOT assume the item for which you are looking is in the list. 
   
 4.Write a main method which shows all operations of your lists are working as expected. Include a foreach loop so you can show the iterators work as expected and the find operation does in fact change the ordering of the elements.      
